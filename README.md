@@ -14,4 +14,6 @@
 Train: python Conv_feature_extract.py --data Dataset/DataK.csv
 
 
-Test: python ConvGBDT.py --data Dataset/DataV.csv --model_name check_point/DataV/best_model.ckpt.meta --model_path check_point/DataV
+Test(provided by origin): python ConvGBDT.py --data Dataset/DataV.csv --model_name check_point/DataV/best_model.ckpt.meta --model_path check_point/DataV
+Test(trained by own): python ConvGBDT.py --data Dataset/DataV.csv --model_name check_point_k/model_0/best_model.ckpt.meta --model_path check_point_k/model_0/DataV
+<center> option : model_(number) (number = 0,1,2,..., 8,9) </center>
