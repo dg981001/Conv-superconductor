@@ -24,10 +24,12 @@ python Conv_feature_extract.py --data Dataset/DataK.csv
 ```
 
 Test(provided by origin)
-``` python ConvGBDT.py --data Dataset/DataV.csv --model_name check_point/DataV/best_model.ckpt.meta --model_path check_point/DataV
+```
+python ConvGBDT.py --data Dataset/DataV.csv --model_name check_point/DataV/best_model.ckpt.meta --model_path check_point/DataV
 ```
 Test(trained by own)
-```python ConvGBDT.py --data Dataset/DataV.csv --model_name check_point_k/model_0/best_model.ckpt.meta --model_path check_point_k/model_0/DataV
+```
+python ConvGBDT.py --data Dataset/DataV.csv --model_name check_point_k/model_0/best_model.ckpt.meta --model_path check_point_k/model_0/DataV
 ```
 
 Visualization(example code)
