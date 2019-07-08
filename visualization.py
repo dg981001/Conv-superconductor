@@ -130,11 +130,11 @@ def main(args):
 def parse_args():
 
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--data", type = str, default = "data/DataK.csv",
+	parser.add_argument("--data", type = str, default = "Dataset/DataK.csv",
 						help = "the data to enconder")
-	parser.add_argument("--model_name", type = str, default = "check_point/DataK/model_0/best_model.ckpt.meta",
+	parser.add_argument("--model_name", type = str, default = "check_point/DataK/best_model.ckpt.meta",
 						help = "model name")
-	parser.add_argument("--model_path", type = str, default = 'check_point/DataK/model_0',
+	parser.add_argument("--model_path", type = str, default = 'check_point/DataK',
 						help = "model path")
 	parser.add_argument("--per", type = float, default = 1,
 						help = "percentage of data to plot")

@@ -1,7 +1,6 @@
 import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 import tensorflow as tf
-import numpy as np
 from function.Evalution import Evaluating_ML
 import matplotlib.pyplot as plt
 import argparse
